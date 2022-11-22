@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "id": "betterchatnarrator",
+  "version": "${version}",
+  "name": "BetterChatNarrator",
+  "description": "",
+  "authors": [],
+  "contact": {},
+  "license": "MIT",
+  "icon": "assets/BetterChatNarrator/icon.png",
+  "environment": "client",
+  "entrypoints": {
+    "client": [ "com.astorks.betterchatnarrator.BetterChatNarrator" ]
+  },
+  "mixins": [
+    "BetterChatNarrator.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.14.9",
+    "fabric": "*",
+    "minecraft": "1.19.2"
+  }
+}
