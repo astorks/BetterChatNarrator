@@ -10,7 +10,8 @@
   "icon": "assets/BetterChatNarrator/icon.png",
   "environment": "client",
   "entrypoints": {
-    "client": [ "com.astorks.betterchatnarrator.BetterChatNarrator" ]
+    "client": [ "com.astorks.betterchatnarrator.BetterChatNarrator" ],
+    "modmenu": [ "com.astorks.betterchatnarrator.ModMenuImpl" ]
   },
   "mixins": [
     "BetterChatNarrator.mixins.json"
