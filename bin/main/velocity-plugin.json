@@ -1,0 +1,10 @@
+{
+  "id":"betterchatnarrator",
+  "name":"BetterChatNarrator",
+  "version":"${version}",
+  "description":"A better chat narrator...",
+  "url":"",
+  "authors":["Ashton"],
+  "dependencies":[],
+  "main":"mc.betterchatnarrator.velocity.VelocityMain"
+}

@@ -1,0 +1,6 @@
+narratorChannelsFile: 'channels.yml'
+clientConfigFile: 'betterchatnarrator.yml'
+playerVoicesFile: 'player-voices.yml'
+sayAfterChannelSync:
+  - channel: Welcome_Message
+    message: 'Welcome to the server.'

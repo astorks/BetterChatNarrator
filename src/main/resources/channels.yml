@@ -1,0 +1,28 @@
+Game_Chat:
+  priority: 5000
+  match: '^\[C\]\((.*?)\)(.*?): (.*?)'
+  say: '$2 says, $3'
+
+Private_Messages:
+  priority: 1000
+  match: '^\[M\]\[(.*?) -> (.*?)\] (.*?)'
+  say: '$1 messaged $2, $3'
+
+Discord_Chat:
+  priority: 1000
+  match: '^\[D\]\((.*?)\)(.*?): (.*?)'
+  say: 'discord $2 says, $3'
+
+System_Messages:
+  priority: 500
+  match: '^\[S\] (.*?)'
+  say: '$1'
+
+AFK_Messages:
+  priority: 50
+
+Player_Join_Leave:
+  priority: 50
+
+Welcome_Message:
+  priority: 50
